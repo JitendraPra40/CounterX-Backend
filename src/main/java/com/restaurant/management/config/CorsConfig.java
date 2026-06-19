@@ -14,7 +14,7 @@ public class CorsConfig implements WebMvcConfigurer {
                         "http://localhost:5173", 
                         "http://localhost:3000",
                         "https://counter-x-frontend-ojqx77wbr-jitendrapra40s-projects.vercel.app",
-                        "https://counterx-frontend.vercel.app" // Adding a typical alias just in case
+                        "https://counter-x-frontend.vercel.app","https://counterxfoody.netlify.app" // Adding a typical alias just in case
                 )
                 // Also allow all vercel preview deployments if needed using patterns:
                 // .allowedOriginPatterns("https://*.vercel.app", "http://localhost:5173")
